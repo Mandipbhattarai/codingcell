@@ -399,7 +399,8 @@ hr:not([size]) {
 
 .cookie {
     color: #44D2A8;
-    text-decoration: none
+    text-decoration: none;
+        cursor: pointer;
 }
 
 .cookie:hover {
