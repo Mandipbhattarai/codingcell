@@ -577,7 +577,7 @@ input:checked+.slider:before {
 }
 
 body {
-    background-image: url(/img/bg.jpg);
+    background-image: url('https://img.freepik.com/free-vector/realistic-galaxy-background_52683-12122.jpg?size=626&ext=jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover
