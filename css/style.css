@@ -72,7 +72,8 @@ body {
 
 .image {
     width: 100%;
-    display: block
+    height: 100%;
+    display: block;
 }
 
 .down {
@@ -399,7 +400,8 @@ hr:not([size]) {
 
 .cookie {
     color: #44D2A8;
-    text-decoration: none
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .cookie:hover {
@@ -485,7 +487,7 @@ input:checked+.slider:before {
     body {
         overflow-x: hidden
     }
-    ::-webkit-scrollbar {
+     ::-webkit-scrollbar {
         width: 0
     }
     .navbar-toggler {
@@ -577,7 +579,7 @@ input:checked+.slider:before {
 }
 
 body {
-    background-image: url(/img/bg.jpg);
+    background-image: url('https://img.freepik.com/free-vector/wavy-clouds-starry-night-background_23-2148274361.jpg?size=626&ext=jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover
@@ -644,5 +646,6 @@ body {
 }
 
 .poster-image {
-    filter: brightness(0.8)
+    filter: brightness(0.8);
+    width: 100%;
 }
